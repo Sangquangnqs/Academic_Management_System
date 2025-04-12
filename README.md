@@ -272,4 +272,33 @@ On the homepage of the lecturer login session, when users hover over the "Lectur
 
 <p align="center">Figure 25: Class List and Personal Scores</p>
 
+## 📌**Software Execution Guide - Hướng dẫn chạy phần mềm**
+- Step 1: Open two IDE windows to run the application. In the first IDE window, open the backend folder.
+<p align="center"><img src="assets/hd1.png" alt="hd1" width="600"></p>
 
+- Step 2: Locate the file "BackendApplication.java".
+<p align="center"><img src="assets/hd2.png" alt="hd2" width="600"></p>
+
+- Step 3: Right-click on the file and select Run Java (or an equivalent function if using a different IDE) and wait for it to run successfully.
+<p align="center"><img src="assets/hd3.png" alt="hd3" width="600"></p>
+<p align="center"><img src="assets/hd4.png" alt="hd4" width="600"></p>
+
+- Step 4: In the second IDE window, open the fe folder. (From this step onward, instructions are specifically for VS Code users. If you use a different IDE, find the appropriate way to run the frontend.)
+🔹 Note: Make sure to install the Live Server extension.
+<p align="center"><img src="assets/hd5.png" alt="hd5" width="600"></p>
+
+- Step 5: Locate the index.html file. Then, right-click on the code inside the file and select Open with Live Server to launch the system's homepage.
+<p align="center"><img src="assets/hd6.png" alt="hd6" width="600"></p>
+
+
+## 🏆**Contributors**
+This project was successfully developed thanks to the dedication and effort of the following contributors:
+1. Võ Quang Đại Việt - 2213954
+2. Nguyễn Đình Đức - 2210794
+3. Nguyễn Quang Sáng - 2212922
+4. Nguyễn Duy Vũ - 2213997
+5. Trần Huy Đức - 2210812
+6. Chế Minh Đức - 2210783
+7. Khúc Minh Trí - 2213636
+
+🎉🎉🎉 Thank you for checking out this project! 🚀

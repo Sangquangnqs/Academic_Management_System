@@ -108,3 +108,168 @@ The frontend consists of the graphical user interface (GUI) that users interact 
   - Stores CSS, JavaScript, images, and other design-related files.
   - Enhances the visual appearance and user interactions (fonts, navigation menus, buttons, images, graphs).
 This detailed structure ensures that the academic management system is well-organized and functional, providing secure and efficient interactions between students, lecturers, and the institution.
+
+## 📌**Class Diagram** 
+<p align="center">
+<img src="assets/Classdiagram.png" alt="ClassDiagram" width="600">
+</p>
+
+## 📌**Software Features - Các tính năng của phần mềm**
+
+**1. Login:**
+
+On the login interface, users are provided with two options: Lecturer Login and Student Login.
+
+<p align="center">
+<img src="assets/hinh1.png" alt="hinh1" width="600">
+</p>
+<p align="center">Figure 1: Login Options</p>
+
+For both options, users are provided with the corresponding interface to enter their email and password.
+
+<p align="center">
+<img src="assets/hinh2.png" alt="hinh2" width="600">
+</p>
+<p align="center">Figure 2: Login Page for Each Role</p>
+
+Note: Each email corresponds to a specific account type. Users cannot use a lecturer’s email to log in as a student or vice versa.
+
+The system also provides users with a logout feature.
+<p align="center">
+<img src="assets/hinh3.png" alt="hinh3" width="600">
+</p>
+<p align="center">Figure 3: Logout Option</p>
+
+Below are two sample accounts for lecturers and students to test the system's features:
+- Lecturer Account:
+  - Email: giangvien@hcmut.edu.vn
+  - Password: gv@2111
+- Student Account:
+  - Email: sinhvien@hcmut.edu.vn
+  - Password: sv@2213089
+
+**2. Features for Lecturers:**
+
+On the homepage of the lecturer login session, when users hover over the "Lecturer Information" section, several options appear. Clicking on any option will redirect the user to the corresponding web page.
+<p align="center"><img src="assets/hinh4.png" alt="hinh4" width="600"></p>
+
+<p align="center">Figure 4: Available Options for Lecturers</p>
+- Lecturer Information:
+  - Clicking on "Lecturer Information" in Figure 4 redirects users to a webpage displaying information about lecturers currently teaching at the university.
+<p align="center"><img src="assets/hinh5.png" alt="hinh5" width="600"></p>
+
+<p align="center">Figure 5: Lecturer Information Page</p>
+
+- Personal Information:
+  - Clicking on "Personal Information" in Figure 4 redirects users to a webpage containing their personal details.
+<p align="center"><img src="assets/hinh6.png" alt="hinh6" width="600"></p>
+
+<p align="center">Figure 6: Lecturer's Personal Information Page</p>
+
+  - Users can edit their personal information by clicking on "Edit Information," which will open a popup window.
+<p align="center"><img src="assets/hinh7.png" alt="hinh7" width="600"></p>
+
+<p align="center">Figure 7: Edit Personal Information</p>
+
+  - Here, users can fill in the required fields and click "Save" to update their personal details.
+
+- Teaching Schedule:
+  - Clicking on "Teaching Schedule" in Figure 4 will display the lecturer's teaching schedule.
+<p align="center"><img src="assets/hinh8.png" alt="hinh8" width="600"></p>
+
+<p align="center">Figure 8: Teaching Schedule Page</p>
+  - Users can adjust the viewing mode using the buttons highlighted in red below.
+<p align="center"><img src="assets/hinh9.png" alt="hinh9" width="600"></p>
+
+<p align="center">Figure 9: Viewing Mode Adjustment Buttons</p>
+
+- Class List:
+  - Clicking on "Class List" in Figure 4 redirects users to a webpage displaying the courses they are teaching.
+<p align="center"><img src="assets/hinh10.png" alt="hinh10" width="600"></p>
+
+<p align="center">Figure 10: List of Courses Being Taught</p>
+
+  - Here, users can click on "CLASS LIST" to view the list of students in a specific course.
+<p align="center"><img src="assets/hinh11.png" alt="hinh11" width="600"></p>
+
+<p align="center">Figure 11: Student List and Evaluation</p>
+
+  - In the student list, users can evaluate students' scores by clicking on "Evaluate" next to a student's name.
+
+  - In Figure 10, users can click on "EDIT COURSE" for the respective course.
+<p align="center"><img src="assets/hinh12.png" alt="hinh12" width="600"></p>
+
+<p align="center">Figure 12: Course Management Interface</p>
+
+  - In this section, users will see the course interface for the selected course. Scrolling down, they will find three key sections that allow them to modify course content.
+<p align="center"><img src="assets/hinh13.png" alt="hinh13" width="600"></p>
+
+<p align="center">Figure 13: Editable Sections</p>
+
+  - Users can upload lecture slides and reference materials by selecting appropriate files and clicking "Update." Additionally, users can create quizzes in the "Quiz Test" section.
+
+**3. Features for Students:**
+
+<p align="center"><img src="assets/hinh14.png" alt="hinh14" width="600"></p>
+
+<p align="center">Figure 14: Student Login Homepage</p>
+
+- Lecturer Information:
+  - Similar to the lecturer login session, clicking on "Lecturer Information" will redirect the user to the webpage shown in Figure 5.
+
+- Student Information:
+  - On the student login homepage, hovering over "Student Information" reveals several options.
+<p align="center"><img src="assets/hinh15.png" alt="hinh15" width="600"></p>
+
+<p align="center">Figure 15: Student Information Options</p>
+
+  - Clicking on "Personal Information" redirects users to a new webpage.
+<p align="center"><img src="assets/hinh16.png" alt="hinh16" width="600"></p>
+
+<p align="center">Figure 16: Student's Personal Information Page</p>
+
+  - Here, users can review and edit their personal information.
+<p align="center"><img src="assets/hinh17.png" alt="hinh17" width="600"></p>
+
+<p align="center">Figure 17: Edit Student Personal Information</p>
+
+  - Additionally, students can click on "Learning Progress" and "Grades" to track their academic progress and scores.
+<p align="center"><img src="assets/hinh18.png" alt="hinh18" width="600"></p>
+
+<p align="center">Figure 18: Learning Progress Statistics</p>
+
+<p align="center"><img src="assets/hinh19.png" alt="hinh19" width="600"></p>
+
+<p align="center">Figure 19: Course Grades</p>
+
+- My Courses:
+  - When users hover over "My Courses," several options appear.
+<p align="center"><img src="assets/hinh20.png" alt="hinh20" width="600"></p>
+
+<p align="center">Figure 20: My Courses Options</p>
+  - Clicking on "Course List" redirects users to a webpage containing the list of enrolled courses.
+<p align="center"><img src="assets/hinh21.png" alt="hinh21" width="600"></p>
+
+<p align="center">Figure 21: Enrolled Course List</p>
+
+  - The webpage also provides a tool for quickly searching for courses. Additionally, scrolling down reveals a control panel that allows users to register or drop courses. Users can refer to Figure 10 for available courses.
+<p align="center"><img src="assets/hinh22.png" alt="hinh22" width="600"></p>
+
+<p align="center">Figure 22: Course Management Panel</p>
+
+  - Similar to the lecturer login session, clicking on "Course Details" in Figure 21 redirects users to the corresponding course interface.
+<p align="center"><img src="assets/hinh23.png" alt="hinh23" width="600"></p>
+
+<p align="center">Figure 23: Course Interface</p>
+
+  - However, unlike the lecturer login session, students cannot modify the three sections: "Lecture Slides," "Reference Materials," and "Quiz Tests."
+<p align="center"><img src="assets/hinh24.png" alt="hinh24" width="600"></p>
+
+<p align="center">Figure 24: Study Materials and Quizzes for Students</p>
+
+  - Furthermore, users can click on "Class List" or "Progress Scores" in Figure 23 to view the list of students enrolled in the class and their own scores. Unlike lecturers, students cannot evaluate the learning progress of other students.
+<p align="center"><img src="assets/hinh25.png" alt="hinh25" width="600"></p>
+
+<p align="center">Figure 25: Class List and Personal Scores</p>
+
+
